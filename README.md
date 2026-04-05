@@ -10,11 +10,18 @@
 
 ## Project Description
 
-This project analyzes historical WNBA draft and career performance data from 1997 to 2022 to uncover patterns in long-term player success and team drafting effectiveness. The goal is to explore how well draft position predicts career outcomes, determine which teams most consistently draft impactful players, and identify athletes who significantly exceeded or fell short of expectations.
+This project analyzes historical WNBA draft and career performance data from
+1997 to 2022 to uncover patterns in long-term player success and team drafting
+effectiveness. The goal is to explore how well draft position predicts career
+outcomes, determine which teams most consistently draft impactful players, and
+identify athletes who significantly exceeded or fell short of expectations.
 
-Data mining techniques such as **clustering** and **anomaly detection** are used to group players by career performance characteristics and highlight significant outliers.
+Data mining techniques including **clustering**, **classification**, and
+**anomaly detection** are used to group players by career performance
+characteristics, explain the rules that distinguish player types, and flag
+players who significantly over or underperformed relative to their draft
+position.
 
-All visualizations and data mining techniques are implemented using **Python in Google Colab**, which is used for data preprocessing, exploratory data analysis, and machine learning techniques such as clustering.
 
 ## Dataset
 
@@ -49,16 +56,20 @@ The dataset used for this project is titled **WNBA Draft Player Data Analysis (1
 
 - Which players delivered the greatest career impact per minute played, and what patterns distinguish high-efficiency players from high-volume players?
 
+
 ## Planned Techniques
 
-- **Clustering (Used for Discovery Question 3)**  
-  I applied K-Means clustering to group players based on performance metrics such as points, assists, rebounds, minutes played, and win share. This technique helps identify patterns between high-impact, high-volume, and low-impact players and directly supports Discovery Question 3, which focuses on identifying players who deliver the greatest career impact relative to their playing time.
+- **Clustering** (K-Means) - groups players by career performance type,
+  addresses Q3
+- **Classification** (Decision Tree) - explains rules separating clusters,
+  analytical expansion for Q3
+- **Anomaly Detection** (pick-group baseline deviation) - flags
+  over/underperformers by draft position, addresses Q2
+- **Aggregation** (team-level grouping by win shares, games, years played) -
+  identifies which teams most consistently draft impactful players,
+  addresses Q1
 
-- **Anomaly Detection (Planned for Discovery Question 2 - Still Under Consideration)**  
-  Anomaly detection will be used to identify players who significantly overperformed or underperformed relative to expectations based on their draft position and projected career trajectory.
 
-- **Optional: Dimensionality Reduction (PCA)**  
-  Principal Component Analysis (PCA) may be used to reduce the dimensionality of the dataset and improve visualization of player groupings and performance patterns.
 
 ## Preliminary Timeline
 
@@ -69,8 +80,6 @@ The dataset used for this project is titled **WNBA Draft Player Data Analysis (1
 
 ## Anticipated Challenges
 
-- Cleaning and preprocessing raw data (removed duplicates and rows with missing data)
+- Cleaning and preprocessing raw data 
 - Handling missing or incomplete information  
 - Normalizing and standardizing features  
-- Choosing appropriate clustering parameters  
-- Distinguishing true anomalies from normal variation  
