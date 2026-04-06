@@ -100,7 +100,7 @@ df["impact_per_minute"] = df["win_shares"] / df["minutes_played"]
 # Features included minutes, points, assists, total rebounds, win shares, and impact per minute
 # Impact per minute formula: impact_per_minute = win_shares / minutes_played
 # Shows how effective a player was while on the court. High value = high efficiency
-
+# This is where I realized there were 2 Groups but Choose 3 due to it making more sense analytically
 features = [
     "minutes_played",
     "points",
