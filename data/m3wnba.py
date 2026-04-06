@@ -24,7 +24,7 @@ print("Shape:", df.shape)
 df.info()
 display(df.describe())
 
-# Only removed data that did not have stats like assits, etc
+# Only removes data that did not have stats like assits, etc
 # Data Cleaning
 df = pd.read_csv("wnbadraft.csv")
 
