@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.neighbors import LocalOutlierFactor
 
 from google.colab import files
-
+# Select the File from your drive
 # Upload file
 uploaded = files.upload()
 
@@ -411,7 +411,7 @@ plt.axhline(df["win_shares"].median(), color="black", linestyle="--",
             linewidth=0.8, label="Overall median WS")
 plt.xlabel("Draft Pick Number")
 plt.ylabel("Career Win Shares")
-plt.title("Q2 — LOF Anomaly Detection: Over and Underperformers by Draft Pick")
+plt.title("Q2: LOF Anomaly Detection: Over and Underperformers by Draft Pick")
 plt.legend()
 plt.tight_layout()
 plt.show()
