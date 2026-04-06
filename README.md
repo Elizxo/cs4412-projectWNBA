@@ -22,7 +22,6 @@ characteristics, explain the rules that distinguish player types, and flag
 players who significantly over or underperformed relative to their draft
 position.
 
-
 ## Dataset
 
 The dataset used for this project is titled **WNBA Draft Player Data Analysis (1997-2022)** and is publicly available on Kaggle.
