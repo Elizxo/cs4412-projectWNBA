@@ -58,7 +58,7 @@ The dataset used for this project is titled **WNBA Draft Player Data Analysis (1
 
 ## Planned Techniques
 
-- **Clustering** (K-Means) - - groups players based on career performance patterns, used to address Discovery Question 3
+- **Clustering** (K-Means) - groups players based on career performance patterns, used to address Discovery Question 3
 - **Classification** (Decision Tree) - explains the decision rules that separate the clusters and provides an analytical interpretation for Discovery Question 3
 - **Anomaly Detection** (draft pick group baseline comparison) - identifies players who overperformed or underperformed relative to expectations based on draft position, used to address Discovery Question 2
 - **Aggregation** (team-level grouping by win shares, games played, and years played) - evaluates which teams consistently draft players with strong long-term impact, used to address Discovery Question 1
