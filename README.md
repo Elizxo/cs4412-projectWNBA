@@ -63,7 +63,29 @@ The dataset used for this project is titled **WNBA Draft Player Data Analysis (1
 - **Anomaly Detection** (draft pick group baseline comparison) - identifies players who overperformed or underperformed relative to expectations based on draft position, used to address Discovery Question 2
 - **Aggregation** (team-level grouping by win shares, games played, and years played) - evaluates which teams consistently draft players with strong long-term impact, used to address Discovery Question 1
 
+## How to Run This Project
 
+To run this project, you will need a Python environment such as Google Colab, Jupyter Notebook, or a local IDE that supports Python.
+
+## Required Files
+
+## Make sure you download and upload the following files when running the project:
+
+**m3wnba.py (main Python script)**
+**wnbadraft.csv (dataset used for analysis)**
+Steps:
+- Download or clone the repository from GitHub
+- Locate the Data folder in the project directory
+- Copy or download both m3wnba.py and wnbadraft.csv
+- Open your preferred environment (Google Colab, Jupyter Notebook, etc.)
+- Upload both files into your working environment
+- Ensure the dataset file is in the same directory as the script or notebook
+- Run the code in order to reproduce the analysis
+
+## Notes:
+File paths in the code must match the uploaded dataset name (wnbadraft.csv)
+In Google Colab, you can upload files using the file upload tool on the left panel
+Install any required libraries if prompted before running the script
 
 ## Preliminary Timeline
 
