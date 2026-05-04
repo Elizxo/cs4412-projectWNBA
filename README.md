@@ -43,9 +43,9 @@ Steps:
 - Run the code in order to reproduce the analysis
 
 ## Notes:
-File paths in the code must match the uploaded dataset name (wnbadraft.csv)
-In Google Colab, you can upload files using the file upload tool on the left panel
-Install any required libraries if prompted before running the script
+- File paths in the code must match the uploaded dataset name (wnbadraft.csv)
+- In Google Colab, you can upload files using the file upload tool on the left panel
+- Install any required libraries if prompted before running the script
 
 ## Dataset
 
